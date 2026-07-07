@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agrinho - Campo e Cidade</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4fff4;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(90deg,#2e7d32,#66bb6a);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+nav{
+    background:#1b5e20;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffe082;
+}
+
+.hero{
+    background:url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=80") center/cover;
+    height:400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.hero h2{
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+    border-radius:10px;
+    font-size:40px;
+}
+
+section{
+    padding:40px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    width:300px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    color:#2e7d32;
+    padding:15px;
+}
+
+.card p{
+    padding:0 15px 20px;
+}
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+.botao{
+    display:inline-block;
+    background:#2e7d32;
+    color:white;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    margin-top:20px;
+}
+
+.botao:hover{
+    background:#1b5e20;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>🌱 Projeto Agrinho</h1>
+<p>Festejando a conexão entre o campo e a cidade</p>
+</header>
+
+<nav>
+<a href="#sobre">Sobre</a>
+<a href="#importancia">Importância</a>
+<a href="#sustentabilidade">Sustentabilidade</a>
+<a href="#contato">Contato</a>
+</nav>
+
+<div class="hero">
+<h2>O Campo Alimenta o Mundo</h2>
+</div>
+
+<section id="sobre">
+<h2>🌾 Sobre o Agrinho</h2>
+<br>
+<p>
+O Agrinho é um programa educativo que incentiva a conscientização sobre
+a importância da agricultura, da sustentabilidade e da preservação do
+meio ambiente. Ele promove valores como cidadania, respeito à natureza
+e integração entre o campo e a cidade.
+</p>
+</section>
+
+<section id="importancia">
+<h2>🚜 A importância do Campo</h2>
+<br>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=800&q=80">
+<h3>Produção de Alimentos</h3>
+<p>
+Os agricultores produzem frutas, verduras, grãos e muitos outros
+alimentos que chegam diariamente às nossas mesas.
+</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=800&q=80">
+<h3>Preservação Ambiental</h3>
+<p>
+Práticas sustentáveis ajudam a conservar a água, o solo e a biodiversidade.
+</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80">
+<h3>Tecnologia no Campo</h3>
+<p>
+Máquinas modernas, drones e sensores tornam a produção mais eficiente
+e sustentável.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="sustentabilidade">
+<h2>🌍 Sustentabilidade</h2>
+<br>
+
+<p>
+A sustentabilidade é essencial para garantir alimentos para as futuras
+gerações. Pequenas atitudes fazem a diferença:
+</p>
+
+<br>
+
+<ul>
+<li>🌱 Economizar água.</li>
+<li>♻️ Reciclar materiais.</li>
+<li>🌳 Preservar as florestas.</li>
+<li>🚜 Incentivar a agricultura sustentável.</li>
+<li>🌎 Respeitar a natureza.</li>
+</ul>
+
+<a href="#contato" class="botao">Saiba Mais</a>
+
+</section>
+
+<section id="contato">
+<h2>📞 Contato</h2>
+<br>
+
+<p>
+Projeto desenvolvido para apresentar a importância do Agrinho e fortalecer
+a ligação entre o campo e a cidade.
+</p>
+
+<br>
+
+<p><strong>Email:</strong> agrinho@escola.com</p>
+<p><strong>Telefone:</strong> (00) 0000-0000</p>
+
+</section>
+
+<footer>
+<p>🌾 Projeto Agrinho | Educação, Sustentabilidade e Cidadania © 2026</p>
+</footer>
+
+</body>
+</html>
